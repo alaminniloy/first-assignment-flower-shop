@@ -14,7 +14,7 @@ body {
   line-height: 30px;
 }
 .banner-heading {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 .section {
   max-width: 1350px;
@@ -31,12 +31,11 @@ body {
   font-weight: 700;
   padding: 20px 30px;
 }
-.header-text{
+.header-text {
   color: #272727;
-font-size: 40px;
-font-weight: 900;
-margin: 0;
-
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
 }
 
 /* banner section */
@@ -65,56 +64,85 @@ header {
   color: rgba(39, 39, 39, 0.6);
   margin: 32px 0;
 }
-.banner-image{
-    display: flex;
-    justify-content: end;
+.banner-image {
+  display: flex;
+  justify-content: end;
 }
-.banner-image img{
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-    vertical-align: bottom;
+.banner-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
-
 
 /* Featured Banner section  */
-#featured-banner{
+#featured-banner {
   text-align: center;
 }
-#featured-banner h2{
+#featured-banner h2 {
   margin-top: 30px;
 }
-#featured-banner p{
-  max-width: 600px ;
+#featured-banner p {
+  max-width: 600px;
   margin: 24px auto 48px;
 }
-.banner-featured-flower{
+.banner-featured-flower {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   gap: 25px;
 }
-.banner-featured-flower > div{
+.banner-featured-flower > div {
   width: 30%;
 }
-.banner-featured-img{
+.banner-featured-img {
   padding: 0 50px;
   height: 600px;
   display: flex;
   align-items: end;
   border-radius: 250px 250px 0 0;
 }
-.banner-featured-img img{
+.banner-featured-img img {
   max-height: 100%;
   width: 100%;
   display: inline-block;
 }
-.banner-featured .flower-1{
+.banner-featured .flower-1 {
   background: rgba(167, 33, 98, 0.15);
 }
-.banner-featured .flower-2{
-background: rgba(5, 151, 160, 0.15);
+.banner-featured .flower-2 {
+  background: rgba(5, 151, 160, 0.15);
 }
-.banner-featured .flower-3{
-background: rgba(71, 125, 17, 0.15);
+.banner-featured .flower-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.banner-featured h3 {
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 700;
+}
+/* Featured Work Section */
+#featured-work {
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  gap:40px;
+  padding: 80px 0px;
+}
+#featured-work .support{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#featured-work .support img{
+  max-width: 80px;
+  margin-bottom: 25px;
+}
+
+#featured-work .support span {
+  color: rgba(39, 39, 39, 0.80);
+font-size: 24px;
+font-weight: 700;
+
 }
