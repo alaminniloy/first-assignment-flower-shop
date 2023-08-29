@@ -188,7 +188,7 @@ header {
 }
 /* News section */
 .banner-news-feed {
-  background-image: url("/asset/Rectangle.png");
+  background-image: url('asset/Rectangle.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 80px;
