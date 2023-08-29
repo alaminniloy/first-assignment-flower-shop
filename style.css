@@ -77,3 +77,44 @@ header {
 }
 
 
+/* Featured Banner section  */
+#featured-banner{
+  text-align: center;
+}
+#featured-banner h2{
+  margin-top: 30px;
+}
+#featured-banner p{
+  max-width: 600px ;
+  margin: 24px auto 48px;
+}
+.banner-featured-flower{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 25px;
+}
+.banner-featured-flower > div{
+  width: 30%;
+}
+.banner-featured-img{
+  padding: 0 50px;
+  height: 600px;
+  display: flex;
+  align-items: end;
+  border-radius: 250px 250px 0 0;
+}
+.banner-featured-img img{
+  max-height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.banner-featured .flower-1{
+  background: rgba(167, 33, 98, 0.15);
+}
+.banner-featured .flower-2{
+background: rgba(5, 151, 160, 0.15);
+}
+.banner-featured .flower-3{
+background: rgba(71, 125, 17, 0.15);
+}
