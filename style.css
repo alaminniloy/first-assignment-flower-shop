@@ -17,7 +17,7 @@ body {
   margin-bottom: 80px;
 }
 .section {
-  max-width: 1350px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0px 50px;
 }
@@ -155,17 +155,34 @@ header {
   justify-content: center;
   align-items: center;
   padding: 100px 200px;
-
-
 }
-#hot-deal > div{
+#hot-deal > div {
   width: 50%;
 }
-.deal-info{
- text-align: center;
- max-width: 600px; 
+.deal-info {
+  text-align: center;
+  max-width: 600px;
 }
-.hot-deal-img{
+.hot-deal-img {
   display: flex;
   justify-content: end;
+}
+/* social media */
+#banner-social {
+  text-align: center;
+}
+#banner-social h2 {
+  margin: 0;
+}
+#banner-social p {
+  max-width: 600px;
+  margin: 24px auto 50px;
+}
+.banner-social-image {
+  display: flex;
+  gap: 20px;
+}
+
+.banner-social-image img {
+  width: 25%;
 }
