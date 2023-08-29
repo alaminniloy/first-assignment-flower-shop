@@ -186,3 +186,29 @@ header {
 .banner-social-image img {
   width: 25%;
 }
+/* News section */
+.banner-news-feed {
+  background-image: url("/asset/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  border-radius: 8px;
+  padding: 100px;
+  text-align: center;
+  background-position: center;
+}
+.banner-news-feed p {
+  margin: 16px 0 50px;
+}
+#banner-news form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#banner-news form input[type="email"] {
+  width: 700px;
+  padding: 17px;
+  border: none;
+  border-radius: 8px;
+}
