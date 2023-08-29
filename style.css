@@ -1,0 +1,79 @@
+/* font style */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* Global Style */
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.article {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner-heading {
+  margin-bottom: 90px;
+}
+.section {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0px 50px;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  line-height: normal;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+.header-text{
+  color: #272727;
+font-size: 40px;
+font-weight: 900;
+margin: 0;
+
+}
+
+/* banner section */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+#banner-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  align-items: center;
+  gap: 50px;
+}
+
+#banner-section > div {
+  width: 50%;
+}
+.banner-info h1 {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.banner-info p {
+  color: rgba(39, 39, 39, 0.6);
+  margin: 32px 0;
+}
+.banner-image{
+    display: flex;
+    justify-content: end;
+}
+.banner-image img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
